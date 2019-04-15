@@ -80,7 +80,8 @@ def obten_columna(tablero, indice):
 
 def resuelveTablero(tablero, soluc_parcial, lista_candidatos):
     if (not quedanHuecosLibres(soluc_parcial)):  # encontrada una solucion
-        ++soluciones_sudoku
+        global soluciones_sudoku
+        soluciones_sudoku = soluciones_sudoku + 1
     else:
         for i in range(0, 9):
             for j in range(0, 9):
