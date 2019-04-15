@@ -18,7 +18,7 @@ def obtenCaja(tablero, fila, columna):
         if 0 <= columna <= 2:
             caja_aux = [fil[0:3] for fil in tablero[0:3]]
         elif 3 <= columna <= 5:
-            caja_aux = [fil[0:3] for fil in tablero[5:6]]
+            caja_aux = [fil[0:3] for fil in tablero[3:6]]
         elif 6 <= columna <= 8:
             caja_aux = [fil[0:3] for fil in tablero[6:9]]
 
@@ -26,7 +26,7 @@ def obtenCaja(tablero, fila, columna):
         if 0 <= columna <= 2:
             caja_aux = [fil[3:6] for fil in tablero[0:3]]
         elif 3 <= columna <= 5:
-            caja_aux = [fil[3:6] for fil in tablero[5:6]]
+            caja_aux = [fil[3:6] for fil in tablero[3:6]]
         elif 6 <= columna <= 8:
             caja_aux = [fil[3:6] for fil in tablero[6:9]]
 
@@ -34,7 +34,7 @@ def obtenCaja(tablero, fila, columna):
         if 0 <= columna <= 2:
             caja_aux = [fil[6:9] for fil in tablero[0:3]]
         elif 3 <= columna <= 5:
-            caja_aux = [fil[6:9] for fil in tablero[5:6]]
+            caja_aux = [fil[6:9] for fil in tablero[3:6]]
         elif 6 <= columna <= 8:
             caja_aux = [fil[6:9] for fil in tablero[6:9]]
 
